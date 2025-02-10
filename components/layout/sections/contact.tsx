@@ -69,8 +69,9 @@ export const ContactSection = () => {
             <h2 className="text-3xl md:text-4xl font-bold">Connect With Us</h2>
           </div>
           <p className="mb-8 text-muted-foreground lg:w-5/6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            ipsam sint enim exercitationem ex autem corrupti quas tenetur
+            Most of the awesome experiences begin with a hello! If you’d like to
+            talk about a experience design project or say hello, please get in
+            touch.
           </p>
 
           <div className="flex flex-col gap-4">
@@ -80,7 +81,10 @@ export const ContactSection = () => {
                 <div className="font-bold">Find us</div>
               </div>
 
-              <div>742 Evergreen Terrace, Springfield, IL 62704</div>
+              <div>
+                Müeyyetzade, Kemeraltı Cd. Karaoğlan Sokağı 24/A, 34425 Karaköy
+                Beyoglu
+              </div>
             </div>
 
             <div>
@@ -89,17 +93,17 @@ export const ContactSection = () => {
                 <div className="font-bold">Call us</div>
               </div>
 
-              <div>+1 (619) 123-4567</div>
+              <div>+90 552 426 04 06</div>
             </div>
 
-            <div>
+            {/* <div>
               <div className="flex gap-2 mb-1">
                 <Mail />
                 <div className="font-bold">Mail US</div>
               </div>
 
               <div>leomirandadev@gmail.com</div>
-            </div>
+            </div> */}
 
             <div>
               <div className="flex gap-2">
@@ -115,7 +119,7 @@ export const ContactSection = () => {
           </div>
         </div>
 
-        <Card className="bg-muted/60 dark:bg-card">
+        {/* <Card className="bg-muted/60 dark:bg-card">
           <CardHeader className="text-primary text-2xl"> </CardHeader>
           <CardContent>
             <Form {...form}>
@@ -238,7 +242,7 @@ export const ContactSection = () => {
           </CardContent>
 
           <CardFooter></CardFooter>
-        </Card>
+        </Card> */}
       </section>
     </section>
   );
